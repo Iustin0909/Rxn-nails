@@ -426,12 +426,15 @@ textarea.invalid {
 }
 .contact {
   display: grid;
-  grid-template-columns: 0.9fr 1.05fr 0.9fr;
-  align-items: stretch;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.25fr);
+  align-items: center;
   gap: 35px;
 }
 .contact h2 {
   font-size: clamp(36px, 4vw, 52px);
+}
+.contact-info {
+  max-width: 420px;
 }
 .contact-info > p:not(.eyebrow) {
   max-width: 280px;
@@ -455,6 +458,7 @@ textarea.invalid {
   min-height: 360px;
   overflow: hidden;
   background: #e9ddd1;
+  grid-column: 2;
 }
 .contact-map iframe {
   display: block;
