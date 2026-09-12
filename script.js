@@ -57,18 +57,3 @@ document.querySelector(".reset-form").addEventListener("click", () => {
   dateField.min = new Date().toISOString().split("T")[0];
   bookingForm.elements.name.focus();
 });
-
-const contactForm = document.querySelector("#contact-form");
-contactForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  if (!validateForm(contactForm)) {
-    contactForm.querySelector(".invalid").focus();
-    return;
-  }
-  const confirmation = contactForm.querySelector(".contact-success");
-  confirmation.hidden = false;
-  confirmation.focus();
-  contactForm.querySelector(".contact-fields").hidden = true;
-});
-
-document.querySelector("#year").textContent = new Date().getFullYear();
