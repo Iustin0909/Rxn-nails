@@ -1,4 +1,4 @@
-# Luna Nail Atelier
+# Iulia RXN Nails
 
 A responsive, single-page nail salon website built with plain HTML, CSS, and JavaScript.
 
