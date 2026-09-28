@@ -498,11 +498,17 @@ textarea.invalid {
   font-size: 13px;
 }
 .ig {
-  display: inline-flex;
+  display: flex !important;
+  flex-direction: row !important;
   align-items: center;
   justify-content: center;
   gap: 10px;
   color: #fff;
+  white-space: nowrap;
+}
+
+.ig span {
+  display: inline-block;
 }
 
 .site-footer {
@@ -524,8 +530,8 @@ textarea.invalid {
 }
 .igsvg {
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 18px !important;
+  height: 18px !important;
   flex-shrink: 0;
   object-fit: contain;
 }
