@@ -497,6 +497,14 @@ textarea.invalid {
   color: var(--ink);
   font-size: 13px;
 }
+.ig {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+}
+
 .site-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -516,8 +524,10 @@ textarea.invalid {
 }
 .igsvg {
   display: block;
-  width: 10%;
-  height: 10%;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  object-fit: contain;
 }
 .hero > *,
 .intro-grid > *,
