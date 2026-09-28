@@ -514,7 +514,7 @@ textarea.invalid {
 .site-footer p:last-child {
   text-align: right;
 }
-.igsvg {
+#igsvg {
   display: block;
   width: 10%;
   height: 10%;
