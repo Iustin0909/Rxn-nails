@@ -72,7 +72,7 @@ img {
 .main-nav {
   display: flex;
   gap: 27px;
-  font-size: 13px;
+  font-size: 25px;
 }
 .main-nav a {
   transition: color 0.2s;
@@ -598,6 +598,7 @@ textarea:focus-visible {
   .main-nav a {
     display: flex;
     align-items: center;
+    font-size: 13px;
   }
   .hero {
     grid-template-columns: 1fr;
