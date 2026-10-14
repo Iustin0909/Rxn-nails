@@ -171,7 +171,8 @@ h2 em {
 }
 .hero-visual {
   position: relative;
-  height: clamp(480px, 54vw, 620px);
+  height: clamp(580px, 66vw, 740px);
+  480px, 54vw, 620px
 }
 .hero-image-wrap {
   width: 82%;
@@ -609,8 +610,8 @@ textarea:focus-visible {
     font-size: clamp(46px, 10vw, 58px);
   }
   .hero-visual {
-    height: min(76vw, 520px);
-    min-height: 390px;
+    height: min(60vw, 440px);
+    min-height: 350px;
   }
   .hero-image-wrap {
     width: 90%;
