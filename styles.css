@@ -171,7 +171,7 @@ h2 em {
 }
 .hero-visual {
   position: relative;
-  height: clamp(580px, 66vw, 740px);
+  height: clamp(1000px, 100vw, 1200px);
   /* 480px, 54vw, 620px */
 }
 .hero-image-wrap {
